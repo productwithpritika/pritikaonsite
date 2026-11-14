@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--
+      Advertise both color schemes so the user agent paints UA-controlled
+      surfaces (scrollbar tracks, form-control chrome, the document
+      background BEFORE CSS loads) using the OS preference, not the
+      "light by default" fallback. Pairs with the
+      ``@media (prefers-color-scheme: dark)`` block in src/index.css
+      so the "Writing your app…" iframe placeholder doesn't pop out as
+      a white block inside dark cowork chrome (issue aether#7883).
+    -->
+    <meta name="color-scheme" content="light dark" />
+    <title>Pritika's Portfolio</title>
+    <meta name="description" content="Pritika Roy Chowdhury, Product Manager at Microsoft Outlook. Case studies in AI, search, calendar and customer-obsessed product work." />
+    <link rel="canonical" href="https://productwithpritika.github.io/pritikaonsite/" />
+    <meta property="og:title" content="Pritika's Portfolio" />
+    <meta property="og:description" content="Building intelligence into everyday experiences. Case studies from Microsoft Outlook, Teams Calendar and Bookings." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://productwithpritika.github.io/pritikaonsite/" />
+    <script type="module" crossorigin src="./assets/index-vfMoTI7A.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-BkjlSjc-.css">
+    <script>
+      // GitHub Pages: 404.html sends deep links here as ?/path; put the real path back.
+      (function (l) {
+        if (l.search[1] === "/") {
+          var decoded = l.search.slice(1).split("&").map(function (s) { return s.replace(/~and~/g, "&"); }).join("?");
+          window.history.replaceState(null, "", l.pathname.slice(0, -1) + decoded + l.hash);
+        }
+      })(window.location);
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
